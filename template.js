@@ -42,3 +42,7 @@ class BmwBuilder extends Builder {
 		console.log('Collect Accessories');
 	}
 }
+const teslaBilder = new TeslaBuilder()
+const bmwBilder = new BmwBuilder()
+teslaBilder.build()
+bmwBilder.build()
